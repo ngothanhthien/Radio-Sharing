@@ -1,0 +1,10 @@
+const server="http://localhost:8000/api/v1"
+export const loginAPI=server+'/user/account/login';
+export const registerAPI=server+'/user/account/register';
+export const googleLoginAPI=server+'/social/google/login';
+export const googleRegisterAPI=server+'/social/google/register';
+export const registerThirdPartyAPI=server+'/register-with-third-party';
+export const loginWithGoogleAPI=server+'/google/auth/login';
+export const loginWithGoogleAPICallback=server+'/google/auth/login/callback'
+export const registerWithGoogleAPI=server+'/google/auth/register';
+export const registerWithGoogleAPICallback=server+'/google/auth/register/callback'

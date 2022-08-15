@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root{
+    --call-to-action-fill: #1a73e8;
+    --call-to-action-fill-hover: #2b7de9;
+    --call-to-action:#065fd4;
+    --primary-button: #c00;
+    --text-primary:#030303;
+    --text-disable: #909090;
+    --text-secondary:#606060;
+    --content-bg: #f9f9f9;
+    --sidebarItem-hover:#f2f2f2;
+    --sidebarItem-focus-hover:#d9d9d9;
+    --sidebarItem-focus:#e5e5e5;
+}
+body{
+    color: var(--text-primary);
+}
